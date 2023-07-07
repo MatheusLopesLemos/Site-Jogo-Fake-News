@@ -1,0 +1,620 @@
+
+@media(max-width:768px) {
+  .inicio { 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background-color: #8FB9AA;
+    border-radius: 15px;
+    width: 125px;
+    height: 40px;
+    box-shadow: 4px 4px 0px black;
+    text-align: center;
+    border: solid 2px;
+    font-family: arial;
+    transform: translate(50%); 
+  }   
+
+}
+
+.explicacao {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: #ED8975 ;
+  width: 500px;
+  height: 440px;
+  border-radius: 15px;
+  padding: 30px;
+  padding-bottom: 50px;
+  box-shadow: 10px 10px 0px black;
+  border: solid 3px;
+}
+
+
+body{
+  background-color: #FFF8EE;
+}
+
+.principal button a {
+  text-decoration: none;
+  color: black;
+}
+
+.principal{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.inicio {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin:  auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  background-color: #8FB9AA;
+  border-radius: 15px;
+  width: 125px;
+  height: 40px;
+  box-shadow: 4px 4px 0px black;
+  text-align: center;
+  border: solid 2px;
+  font-family: arial;
+ 
+}
+
+.inicio:hover {
+  background-color:  #9AE49A;
+} 
+
+.titulo {
+  color: #FFC9BE;
+  text-shadow: 2px 2px 1px black;
+  font-family: arial;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+p { 
+  text-align: center;
+  font-family: Arial;  
+}
+
+/*Index 2*/
+
+.card{
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  align-items: center;
+  background-color: #FFE8B5 ;
+  width: 500px;
+  height: 700px;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 10px 10px 0px black;
+  border: solid 3px;
+  display: block;
+}
+
+.verdadeiro{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #8FB9AA;
+  border-radius: 15px;
+  width: 125px;
+  height: 40px;
+  box-shadow: 4px 4px 0px black;
+  text-align: center;
+  border: solid 2px;
+  font-family: arial;
+  
+}
+
+.verdadeiro:hover {
+  background-color: #9AE49A;
+}
+
+.falso{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #ED8975;
+  border-radius: 15px;
+  width: 125px;
+  height: 40px;
+  box-shadow: 4px 4px 0px black;
+  text-align: center;
+  border: solid 2px;
+  font-family: arial; 
+}
+
+.falso:hover{
+  background-color: #FAA898;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.texto{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  background-color: #CDCFFF;
+  font-family: arial;
+  border: solid 2px;
+  border-radius: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  box-shadow: 4px 4px 0px black;
+  margin: auto;
+  height: 300px;
+  display:block;
+  text-align: center;
+  align-items: center;
+  word-wrap: break-word;
+  
+}
+
+img{
+box-shadow: 4px 4px 0px black;
+border: solid 3px;
+border-radius: 15px; 
+margin-bottom: 25px;  
+}
+
+.cardRespostaFalsa{
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  background-color: #FAA898 ;
+  width: 500px;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 10px 10px 0px black;
+  border: solid 3px;
+  display: none;
+}
+
+.cardRespostaVerdadeira{
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  background-color: #9AE49A ;
+  width: 500px;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 10px 10px 0px black;
+  border: solid 3px;
+  display: none;
+}
+
+/* Tamanho card1 */
+
+.card1 {
+
+  height: 630px;
+
+}
+
+.card1 .texto{
+
+  height:220px;
+}
+
+
+/* tamanho card resposta 1*/
+
+.resp1 {
+  height: 770px;  
+}
+
+.resp1 .texto {
+  height: 360px;
+}
+
+/* Tamanho card2 */
+
+.card2 {
+
+  height: 650px;
+
+}
+
+.card2 .texto{
+
+  height:240px;
+}
+
+/* Tamanho card resposta2 */
+
+.resp2 {
+  height: 830px;  
+}
+
+.resp2 .texto {
+  height: 420px;
+}
+
+/* Tamanho card3 */
+
+.card3 {
+
+  height: 600px;
+
+}
+
+.card3 .texto{
+
+  height:190px;
+}
+
+/* Tamanho card resposta3 */
+
+.resp3 {
+  height: 700px;  
+}
+
+.resp3 .texto {
+  height: 290px;
+}
+
+/* Tamanho card4 */
+
+.card4 {
+
+  height: 620px;
+
+}
+
+.card4 .texto{
+
+  height:210px;
+}
+
+/* Tamanho card resposta4 */
+
+.resp4 {
+  height: 690px;  
+}
+
+.resp4 .texto {
+  height: 280px;
+}
+
+/* Tamanho card5 */
+
+.card5 {
+
+  height: 590px;
+
+}
+
+.card5 .texto{
+
+  height:180px;
+}
+
+/* Tamanho card resposta5 */
+
+.resp5 {
+  height: 590px;  
+}
+
+.resp5 .texto {
+  height: 180px;
+}
+
+/* Tamanho card6 */
+
+.card6 {
+
+  height: 650px;
+
+}
+
+.card6 .texto{
+
+  height:240px;
+}
+
+/* Tamanho card resposta6 */
+
+.resp6 {
+  height: 760px;  
+}
+
+.resp6 .texto {
+  height: 350px;
+}
+
+/* Tamanho card7 */
+
+.card7 {
+
+  height: 580px;
+
+}
+
+.card7 .texto{
+
+  height:170px;
+}
+
+/* Tamanho card resposta7 */
+
+.resp7 {
+  height: 680px;  
+}
+
+.resp7 .texto {
+  height: 270px;
+}
+
+/* Tamanho card8 */
+
+.card8 {
+
+  height: 560px;
+
+}
+
+.card8 .texto{
+
+  height:150px;
+}
+
+/* Tamanho card resposta8 */
+
+.resp8 {
+  height: 650px;  
+}
+
+.resp8 .texto {
+  height: 240px;
+}
+
+/* Tamanho card9 */
+.card9 {
+
+  height: 580px;
+
+}
+
+.card9 .texto{
+
+  height:170px;
+}
+
+/* Tamanho card resposta9 */
+
+.resp9 {
+  height: 680px;  
+}
+
+.resp9 .texto {
+  height: 270px;
+}
+
+/* Tamanho card10 */
+.card10 {
+
+  height: 550px;
+
+}
+
+.card10 .texto{
+
+  height:140px;
+}
+
+/* Tamanho card resposta10 */
+
+.resp10 {
+  height: 740px;  
+}
+
+.resp10 .texto {
+  height: 330px;
+}
+
+/* Tamanho card11 */
+.card11 {
+
+  height: 690px;
+
+}
+
+.card11 .texto{
+
+  height:280px;
+}
+
+/* Tamanho card resposta11 */
+
+.resp11 {
+  height: 810px;  
+}
+
+.resp11 .texto {
+  height: 400px;
+}
+
+/* Tamanho card12 */
+.card12 {
+
+  height: 600px;
+
+}
+
+.card12 .texto{
+
+  height:190px;
+}
+
+/* Tamanho card resposta12 */
+
+.resp12 {
+  height: 790px;  
+}
+
+.resp12 .texto {
+  height: 380px;
+}
+
+/* Tamanho card13 */
+.card13 {
+
+  height: 520px;
+
+}
+
+.card13 .texto{
+
+  height:110px;
+}
+/* Tamanho card resposta13 */
+
+.resp13 {
+  height: 690px;  
+}
+
+.resp13 .texto {
+  height: 280px;
+}
+/* Tamanho card14 */
+.card14 {
+
+  height: 540px;
+
+}
+
+.card14 .texto{
+
+  height:130px;
+}
+/* Tamanho card resposta14 */
+
+.resp14 {
+  height: 810px;  
+}
+
+.resp14 .texto {
+  height: 400px;
+}
+/* Tamanho card15 */
+.card15 {
+
+  height: 650px;
+
+}
+
+.card15 .texto{
+
+  height:240px;
+}
+/* Tamanho card resposta15 */
+
+.resp15 {
+  height: 700px;  
+}
+
+.resp15 .texto {
+  height: 290px;
+}
+/* Tamanho card16 */
+.card16 {
+
+  height: 640px;
+
+}
+
+.card16 .texto{
+
+  height:230px;
+}
+/* Tamanho card resposta16 */
+
+.resp16 {
+  height: 680px;  
+}
+
+.resp16 .texto {
+  height: 270px;
+}
+/* Tamanho card17 */
+.card17 {
+
+  height: 580px;
+
+}
+
+.card17 .texto{
+
+  height:170px;
+}
+/* Tamanho card resposta17 */
+
+.resp17 {
+  height: 950px;  
+}
+
+.resp17 .texto {
+  height: 540px;
+}
+/* Tamanho card18 */
+.card18 {
+
+  height: 580px;
+
+}
+
+.card18 .texto{
+
+  height:170px;
+}
+/* Tamanho card resposta18 */
+
+.resp18 {
+  height: 630px;  
+}
+
+.resp18 .texto {
+  height: 220px;
+}
+/* Tamanho card19 */
+.card19 {
+
+  height: 730px;
+  margin-bottom: 30px;
+
+}
+
+.card19 .texto{
+
+  height:320px;
+}
+/* Tamanho card resposta19 */
+
+.resp19 {
+  height: 990px;  
+  margin-bottom: 30px;
+}
+
+.resp19 .texto {
+  height: 580px;
+}
